@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compaatible"content="ie=edge">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<h1>用户列表</h1>
+<!-- 新增任务 -->
+<table>
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>姓名</th>
+        <th>电子邮件</th>
+    </tr>
+    </thead>
+</table>
+<form action="/addTask" method="post">
+    <input type="text" name="name" placeholder="请输入用户姓名" id="name">
+    <input type="email" name="mail" placeholder="请输入用户邮箱" id="mail">
+    <button type="submit">添加用户</button>
+</form>
+
+<!-- 显示任务列表 -->
+<ul>
+    <li th:each="task : ${tasks}">
+        <span th:text="${task.name}" th:classappend="${task.completed} ? 'completed' : ''"></span>
+        <form action="/updateTask" method="post" style="display:inline;">
+            <input type="hidden" name="id" th:value="${task.id}">
+            <button type="submit">切换状态</button>
+        </form>
+        <form action="/deleteTask" method="post" style="display:inline;">
+            <input type="hidden" name="id" th:value="${task.id}">
+            <button type="submit">删除</button>
+        </form>
+    </li>
+</ul>
+</div>
+</body>
+
+<!--<body>-->
+<!--<div class="container">-->
+<!--    <h1>用户列表</h1>-->
+<!--    <table>-->
+<!--        <thead>-->
+<!--        <tr>-->
+<!--            <th>ID</th>-->
+<!--            <th>姓名</th>-->
+<!--            <th>电子邮件</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody>-->
+<!--        <tr>-->
+<!--            <td>1</td>-->
+<!--            <td>mqxu</td>-->
+<!--            <td>mqxu@qq.com</td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--    </table>-->
+<!--    <div class="input-group">-->
+<!--        <input type="text" placeholder="请输入用户名">-->
+<!--        <input type="email" placeholder="请输入用户邮箱">-->
+<!--        <button>添加用户</button>-->
+<!--    </div>-->
+<!--</div>-->
+<!--</body>-->
+</html>

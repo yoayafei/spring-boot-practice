@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户列表</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>用户列表</h1>
+    <table>
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>电子邮件</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="user : ${users}">
+            <td th:text="${user.id}"></td>
+            <td th:text="${user.name}"></td>
+            <td th:text="${user.email}"></td>
+        </tr>
+        </tbody>
+    </table>
+    <form action="/user/add" method="post" class="input-group">
+        <input type="text" name="name" placeholder="请输入用户名" required>
+        <input type="email" name="email" placeholder="请输入用户邮箱" required>
+        <button type="submit">添加用户</button>
+    </form>
+</div>
+</body>
+</html>
