@@ -1,0 +1,25 @@
+2024-09-09T21:09:47.132+08:00  INFO 14708 --- [main] yyf.springboot.logging.Application       : Starting Application using Java 17.0.8.1 with PID 14708 (C:\Users\86151\Desktop\spring-boot-practice\spring-boot-logging\target\classes started by 86151 in C:\Users\86151\Desktop\spring-boot-practice)
+2024-09-09T21:09:47.134+08:00  INFO 14708 --- [main] yyf.springboot.logging.Application       : No active profile set, falling back to 1 default profile: "default"
+2024-09-09T21:09:47.666+08:00  INFO 14708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-09T21:09:47.674+08:00  INFO 14708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-09T21:09:47.674+08:00  INFO 14708 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09T21:09:47.708+08:00  INFO 14708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-09T21:09:47.708+08:00  INFO 14708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 539 ms
+2024-09-09T21:09:47.905+08:00  WARN 14708 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-09T21:09:47.914+08:00  INFO 14708 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-09T21:09:47.925+08:00 ERROR 14708 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+

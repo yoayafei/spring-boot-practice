@@ -22,6 +22,12 @@
         <module>my-zhihu-api</module>
         <module>spring-boot-configure</module>
         <module>send-email</module>
+        <module>spring-boot-redis</module>
+        <module>my-test</module>
+        <module>spring-boot-task</module>
+        <module>spring-boot-file</module>
+        <module>spring-boot-filter-interceptor</module>
+        <module>spring-boot-websocket</module>
     </modules>
 	<packaging>pom</packaging>
 

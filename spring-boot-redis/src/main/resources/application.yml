@@ -1,0 +1,63 @@
+spring:
+  data:
+    redis:
+      port: 6379   # Redis 服务器端口
+      host: 127.0.0.1 #服务器地址
+      database: 0  # Redis 数据库索引，默认为0
+      password:    #Redis 服务器密码，默认为空
+      lettuce:
+        pool:
+          min-idle: 10  #连接池中的最大空闲数,默认为0
+          max-idle: 20  #最大空闲数，默认为8
+          max-active: 100 #连接池的最大连接数，默认为8
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/spring_boot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+yyf:
+  sms:
+    ccp:
+      serverIp: app.cloopen.com
+      port: 8883
+      accountSId: 2c94811c9035ff9f0192adc318287d2c
+      accountToken: a9286047cd4b441b907848911c814ee1
+      appId: 2c94811c9035ff9f0192adc319be7d34
+      templateId: 1
+
+logging:
+  level:
+    com.baomidou.mybatisplus.samples: debug
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: true  # 驼峰下划线转换
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #打印sql语句,调试用
+  global-config:
+    db-config:
+      logic-delete-field: deleted # 全局逻辑删除的实体字段名
+      logic-delete-value: 1 # 逻辑已删除值(默认为 1)
+      logic-not-delete-value: 0 # 逻辑未删除值(默认为 0)
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    tags-sorter: alpha
+    operations-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+  group-configs:
+    - group: 'default'
+      paths-to-match: '/**'
+      # 扫描 controller 包的路径，自行修改
+      packages-to-scan: top.yyf.springboot.redis.controller
+
+knife4j:
+  enable: true
+  setting:
+    language: zh_cn
+  basic:
+    enable: true
+    username: admin
+    password: 123456

@@ -1,0 +1,160 @@
+2024-09-09 21:27:42.480 INFO  [main] yyf.springboot.logging.Application : Starting Application using Java 17.0.8.1 with PID 13828 (C:\Users\86151\Desktop\spring-boot-practice\spring-boot-logging\target\classes started by 86151 in C:\Users\86151\Desktop\spring-boot-practice)
+2024-09-09 21:27:42.482 INFO  [main] yyf.springboot.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 21:27:43.018 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 21:27:43.023 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:27:43.031 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 21:27:43.031 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 21:27:43.061 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 21:27:43.062 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 548 ms
+2024-09-09 21:27:43.256 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:27:43.259 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-09 21:27:43.268 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-09 21:27:43.279 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-09 21:29:50.853 INFO  [main] yyf.springboot.logging.Application : Starting Application using Java 17.0.8.1 with PID 24536 (C:\Users\86151\Desktop\spring-boot-practice\spring-boot-logging\target\classes started by 86151 in C:\Users\86151\Desktop\spring-boot-practice)
+2024-09-09 21:29:50.855 INFO  [main] yyf.springboot.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 21:29:51.496 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 21:29:51.503 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:29:51.505 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 21:29:51.505 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 21:29:51.531 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 21:29:51.532 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 638 ms
+2024-09-09 21:29:51.740 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:29:51.743 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-09 21:29:51.753 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-09 21:29:51.764 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-09 21:30:26.335 INFO  [main] yyf.springboot.logging.Application : Starting Application using Java 17.0.8.1 with PID 8072 (C:\Users\86151\Desktop\spring-boot-practice\spring-boot-logging\target\classes started by 86151 in C:\Users\86151\Desktop\spring-boot-practice)
+2024-09-09 21:30:26.336 INFO  [main] yyf.springboot.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 21:30:26.892 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 21:30:26.898 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:30:26.900 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 21:30:26.901 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 21:30:26.927 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 21:30:26.927 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 558 ms
+2024-09-09 21:30:27.128 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:30:27.131 WARN  [main] org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-09 21:30:27.139 INFO  [main] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-09 21:30:27.149 ERROR [main] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-09 21:30:42.439 INFO  [main] yyf.springboot.logging.Application : Starting Application using Java 17.0.8.1 with PID 4644 (C:\Users\86151\Desktop\spring-boot-practice\spring-boot-logging\target\classes started by 86151 in C:\Users\86151\Desktop\spring-boot-practice)
+2024-09-09 21:30:42.440 INFO  [main] yyf.springboot.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 21:30:42.934 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 21:30:42.940 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:30:42.941 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 21:30:42.942 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 21:30:42.968 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 21:30:42.968 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 499 ms
+2024-09-09 21:30:43.159 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:30:43.169 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 21:30:43.174 INFO  [main] yyf.springboot.logging.Application : Started Application in 1.086 seconds (process running for 1.407)
+2024-09-09 21:30:44.413 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 21:30:44.413 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-09 21:30:44.414 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2024-09-09 21:30:44.433 INFO  [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a INFO log
+2024-09-09 21:30:44.433 WARN  [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a WARN log
+2024-09-09 21:30:44.433 ERROR [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a ERROR log
+2024-09-09 21:31:00.817 INFO  [main] yyf.springboot.logging.Application : Starting Application using Java 17.0.8.1 with PID 22836 (C:\Users\86151\Desktop\spring-boot-practice\spring-boot-logging\target\classes started by 86151 in C:\Users\86151\Desktop\spring-boot-practice)
+2024-09-09 21:31:00.818 INFO  [main] yyf.springboot.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 21:31:01.336 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 21:31:01.342 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:31:01.344 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 21:31:01.344 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 21:31:01.371 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 21:31:01.372 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 523 ms
+2024-09-09 21:31:01.566 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:31:01.579 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 21:31:01.584 INFO  [main] yyf.springboot.logging.Application : Started Application in 1.133 seconds (process running for 1.484)
+2024-09-09 21:31:05.198 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 21:31:05.199 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-09 21:31:05.199 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 0 ms
+2024-09-09 21:31:05.217 INFO  [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a INFO log
+2024-09-09 21:31:05.218 WARN  [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a WARN log
+2024-09-09 21:31:05.218 ERROR [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a ERROR log
+2024-09-09 21:32:31.306 INFO  [main] yyf.springboot.logging.Application : Starting Application using Java 17.0.8.1 with PID 8868 (C:\Users\86151\Desktop\spring-boot-practice\spring-boot-logging\target\classes started by 86151 in C:\Users\86151\Desktop\spring-boot-practice)
+2024-09-09 21:32:31.308 INFO  [main] yyf.springboot.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 21:32:31.851 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 21:32:31.857 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:32:31.859 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 21:32:31.859 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 21:32:31.889 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 21:32:31.889 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 554 ms
+2024-09-09 21:32:32.099 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:32:32.118 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 21:32:32.123 INFO  [main] yyf.springboot.logging.Application : Started Application in 1.203 seconds (process running for 1.66)
+2024-09-09 21:32:37.063 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 21:32:37.063 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-09 21:32:37.064 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2024-09-09 21:32:37.084 INFO  [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a INFO log
+2024-09-09 21:32:37.084 WARN  [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a WARN log
+2024-09-09 21:32:37.084 ERROR [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a ERROR log
+2024-09-09 21:33:57.113 INFO  [main] yyf.springboot.logging.Application : Starting Application using Java 17.0.8.1 with PID 15956 (C:\Users\86151\Desktop\spring-boot-practice\spring-boot-logging\target\classes started by 86151 in C:\Users\86151\Desktop\spring-boot-practice)
+2024-09-09 21:33:57.115 INFO  [main] yyf.springboot.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 21:33:57.611 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 21:33:57.617 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:33:57.618 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 21:33:57.618 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 21:33:57.651 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 21:33:57.652 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 511 ms
+2024-09-09 21:33:57.850 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:33:57.866 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 21:33:57.871 INFO  [main] yyf.springboot.logging.Application : Started Application in 1.111 seconds (process running for 1.444)
+2024-09-09 21:35:10.401 INFO  [main] yyf.springboot.logging.Application : Starting Application using Java 17.0.8.1 with PID 26920 (C:\Users\86151\Desktop\spring-boot-practice\spring-boot-logging\target\classes started by 86151 in C:\Users\86151\Desktop\spring-boot-practice)
+2024-09-09 21:35:10.402 INFO  [main] yyf.springboot.logging.Application : No active profile set, falling back to 1 default profile: "default"
+2024-09-09 21:35:10.945 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat initialized with port 8080 (http)
+2024-09-09 21:35:10.952 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:35:10.954 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2024-09-09 21:35:10.954 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 21:35:10.988 INFO  [main] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2024-09-09 21:35:10.988 INFO  [main] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 555 ms
+2024-09-09 21:35:11.219 INFO  [main] org.apache.coyote.http11.Http11NioProtocol : Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 21:35:11.234 INFO  [main] org.springframework.boot.web.embedded.tomcat.TomcatWebServer : Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 21:35:11.239 INFO  [main] yyf.springboot.logging.Application : Started Application in 1.296 seconds (process running for 1.738)
+2024-09-09 21:35:14.659 INFO  [http-nio-8080-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 21:35:14.659 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Initializing Servlet 'dispatcherServlet'
+2024-09-09 21:35:14.660 INFO  [http-nio-8080-exec-1] org.springframework.web.servlet.DispatcherServlet : Completed initialization in 1 ms
+2024-09-09 21:35:14.679 INFO  [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a INFO log
+2024-09-09 21:35:14.680 WARN  [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a WARN log
+2024-09-09 21:35:14.680 ERROR [http-nio-8080-exec-1] yyf.springboot.logging.controller.LogController : This is a ERROR log

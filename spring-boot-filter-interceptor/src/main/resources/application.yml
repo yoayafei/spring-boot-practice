@@ -1,0 +1,20 @@
+logging:
+  level:
+    root: INFO
+    org:
+      springframework: WARN    # 适当调整其他包的日志级别
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} - %m%n' # 控制输出格式
+
+aliyun:
+  oss:
+    endpoint: https://oss-cn-shanghai.aliyuncs.com
+    accessKeyId: LTAI5tDc61CiubWgis2PP2XL
+    accessKeySecret: gSL1PYKrQzwK8sptb2CZnToed4JM5m
+    bucketName: 111aespa
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
